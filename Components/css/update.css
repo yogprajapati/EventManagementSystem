@@ -1,0 +1,124 @@
+:root {
+    --yellow: #fed330;
+    --red: #e74c3c;
+    --white: #fff;
+    --black: #222;
+    --light-color: #777;
+    --border: .2rem solid var(--black);
+}
+body {
+    background-color: whitesmoke;
+}
+
+.nav-main {
+    height: 5vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.logo-text {
+    font-size: 25px;
+    color: rgb(233, 167, 68);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    opacity: 90%;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items p {
+    font-size: 25px;
+    border-bottom: 2px solid black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.update-form {
+    margin: 100px auto;
+    width: 30vw;
+    height: 50vh;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form h2 {
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+}
+
+form input {
+    padding: 5px;
+    font-size: 17px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    /* padding: 1rem 2.5rem; */
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: .2s linear;
+    text-decoration: none;
+    border: none;
+}
+
+.btn {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.btn:hover {
+    letter-spacing: .2rem;
+}
+
+
+.message {
+    position: sticky;
+    top: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+    background-color: var(--red);
+}
+
+.message span {
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.message i {
+    font-size: 2.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.message i:hover {
+    color: var(--white);
+}

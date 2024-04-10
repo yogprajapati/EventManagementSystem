@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    max-width: 100vw;
+}
+
+.container {
+    width: 100vw;
+    margin: auto;     
+    }
+
+.nav-main {
+    background-image: url("https://images.lifestyleasia.com/wp-content/uploads/sites/7/2023/02/15174409/wedding-venue-hero-1600x900.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.icons{
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.nav-main .box {
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 1px;
+    opacity: 0.69;
+}
+
+.navbar {
+
+    height: 10vh;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo-text {
+    font-size: 25px;
+    color: blanchedalmond;
+    opacity: 90%;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-items {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-item {
+    color: rgb(172, 168, 168);
+    text-decoration: none;
+    font-size: 1.1em;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-item:hover {
+    color: white;
+}
+
+.nav-item:focus {
+    color: orange;
+}
+
+.book-btn {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    opacity: 75%;
+    border: none;
+    height: 2.6em;
+    width: 8.5em;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 20px;
+    /* transform: rotate(0);
+    transition: transform 0.5s ease; */
+}
+
+.book-btn:hover {
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+}
+
+.nav-content {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.title{
+    text-align: left;
+    font-size: 60;
+    font-family: 'Luminari';
+    color: rgb(255, 255, 255);
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.main{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+.main p{
+    color: #666666;
+    font-size: 16.5;
+}
+.img img{
+    height: 370px;
+    width: 407px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.birthday{
+    background-image: url("https://mypartyqueen.com/wp-content/uploads/2023/02/DSC_0821.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.birthday .box{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 1px;
+    opacity: 0.69;
+}
+.imgb img{
+    height: 470px;
+    width: 357px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.party{
+    background-image: url("https://luxaus.au/wp-content/uploads/2023/12/corporate-events-01.jpg");
+    height: 80vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.party .box{
+    background-color: black;
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 1px;
+    opacity: 0.69;
+}
+.imgp img{
+    height: 450px;
+    width: 357px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.p1{
+    margin-top: 50px;
+}
+.foot{
+    background-color: #0f172a;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: aliceblue;
+}
